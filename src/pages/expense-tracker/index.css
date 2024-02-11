@@ -1,0 +1,108 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.balance-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.current-balance, .total-income, .total-expense {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;
+}
+
+form input[type="text"], form input[type="number"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+/* 
+.All-transactions {
+    margin: 20px auto;
+    width: 50%;
+    height: 300px; 
+    overflow-y: auto;
+} 
+
+.All-transactions ul {
+    list-style-type: none;
+    padding: 0;
+} 
+
+.All-transactions ul li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+} */
+.addtransactionBtn {
+    margin: 10px;
+    border-radius: 2px;
+    border-style: none;
+}  
+
+/* Style for h3 */
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  /* Style for p when no transactions are added */
+  .All-transactions p {
+    font-style: italic;
+    color: #888; /* Gray color for no transactions message */
+  }
+  
+  /* Style for ul */
+  .All-transactions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for li */
+  .All-transactions li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc; /* Separator line between transactions */
+    padding-bottom: 10px; /* Space between transactions */
+  }
+  
+  /* Style for h1 within li */
+  .All-transactions li h1 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for p within li */
+  .All-transactions li p {
+    font-size: 1em;
+    color: #555; /* Text color for transaction details */
+  }
+  
+ 
